@@ -1,0 +1,16 @@
+# Core ML Libraries
+torch
+pandas
+scikit-learn
+
+# Hugging Face Ecosystem
+transformers
+datasets
+peft
+trl
+bitsandbytes
+accelerate
+huggingface-hub
+
+# Utilities
+rich
