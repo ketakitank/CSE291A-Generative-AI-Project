@@ -212,7 +212,7 @@ def train_model(train_ds: Dataset):
         group_by_length=True,
         lr_scheduler_type="cosine",
         save_strategy="epoch",
-        evaluation_strategy="no", # No eval set during training for speed
+        # evaluation_strategy="no", # No eval set during training for speed
         report_to="none",
     )
 
